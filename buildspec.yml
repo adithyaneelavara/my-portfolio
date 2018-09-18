@@ -11,4 +11,4 @@ artifacts:
     - favicon.ico
     - AdithyaNeelavara-Resume.pdf
     - images/*
-    - styles/main.css
+    - styles/*
