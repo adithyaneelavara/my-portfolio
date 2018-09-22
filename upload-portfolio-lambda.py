@@ -11,8 +11,8 @@ def lambda_handler(event, context):
 	sns = boto3.resource('sns')
 	topic = sns.Topic('arn:aws:sns:eu-west-1:945746314187:Deploy_Portfolio_Notification')
 	location={
-		"bucketName":'build.adithyaneelavara.info'
-		"objectKey":'portfoliobuild.zip'
+		"bucketName":'build.adithyaneelavara.info',
+		"objectKey":'portfoliobuild.zip',
 	}
 	try:
 		job = event.get('CodePipeline.job')
