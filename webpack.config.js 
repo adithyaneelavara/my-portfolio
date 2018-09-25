@@ -3,9 +3,11 @@ const path=require('path');
 module.exports={
 	entry:'./js/main.js'
 	output:{
-		properties:{path: path.resolve(__dirname,'js'),
-		filename:'bundle.js'
-	}
+		properties:{
+		path: path.resolve(__dirname,'js'),
+		filename:'bundle.js',
+		description:'Bundle JS'
+		}
 	},
 	module:{
 		rules:[{
