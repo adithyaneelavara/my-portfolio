@@ -4,6 +4,8 @@ phases:
   build:
     commands:
       - echo Nothing to do yet
+      - npm install
+      - npm run webpack
 
 artifacts:
   files:
@@ -14,3 +16,4 @@ artifacts:
     - images/*
     - styles/*
     - js/*
+    - dist/*
