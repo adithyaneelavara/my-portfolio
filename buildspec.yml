@@ -8,7 +8,9 @@ phases:
 artifacts:
   files:
     - index.html
+    - blog.html
     - favicon.ico
     - AdithyaNeelavara-Resume.pdf
     - images/*
     - styles/*
+    - js/*
