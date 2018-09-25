@@ -5,7 +5,7 @@ module.exports={
 	entry:'./js/main.js'
 	output:{
 		properties:{
-		path: path.resolve(__dirname,'js'),
+		path: path.resolve(__dirname,'dist'),
 		filename:'bundle.js',
 		description:'Bundle JS'
 		}
